@@ -1,9 +1,12 @@
+fetch("https://raw.githubusercontent.com/bromberis/kava/main/photos.json")
+  .then((response) => response.json())
+  .then((data) => console.log(data));
 
 let img = document.querySelector("img");
 let caption = document.querySelector("h3");
 let button = document.querySelector(".btn");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function (data) {
   let random = Math.floor(Math.random() * 10) + 1;
   img.src = photos[random].src;
   caption.textContent = photos[random].title;
