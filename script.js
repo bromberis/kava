@@ -13,7 +13,7 @@ function imageLoad(duomenys) {
 
 button.addEventListener("click", function () {
   let random = Math.floor(Math.random() * 10);
-  img.src = `${data[random].src} `;
+  img.src = data[random].src;
   caption.textContent = data[random].title;
 
   confetti({
