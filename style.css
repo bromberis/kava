@@ -1,0 +1,29 @@
+.btn {
+  width: 150px;
+}
+h3 {
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px 40px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  width: 65%;
+}
+.my-photo {
+  object-fit: cover;
+  width: 100%;
+}
+
+.col-12 {
+  position: relative;
+}
+
+p {
+  font-family: "Prompt", sans-serif;
+  padding: 50px;
+}
