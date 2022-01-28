@@ -12,8 +12,8 @@ function imageLoad(duomenys) {
 }
 
 button.addEventListener("click", function () {
-  let random = Math.floor(Math.random() * 10) + 1;
-  img.innerHTML = `<img src=${data[random].src}" alt="Photo" class="img-fluid mt-5" />`;
+  let random = Math.floor(Math.random() * 10);
+  img.src = `${data[random].src} `;
   caption.textContent = data[random].title;
 
   confetti({
