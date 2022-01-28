@@ -1,4 +1,5 @@
-[{
+[
+    {
     "title": "Every day is a coffee day",
     "src": "img/coffee-1.jpg",
   },
@@ -38,5 +39,5 @@
   {
     "title": "Coffee first",
     "src": "img/coffee-10.jpg",
-  },
-];
+  }
+]
