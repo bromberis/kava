@@ -23,8 +23,10 @@ button.addEventListener("click", function () {
 
   confetti({
     particleCount: 300,
-    spread: 180,
+    spread: 360,
     startVelocity: 60,
+    decay: 0.9,
+    gravity: 0,
     colors: ["#000000", "#000001", "#CCB5B1", "#B02B18", "#3C5032"],
   });
 });
