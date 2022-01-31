@@ -1,6 +1,7 @@
 .btn {
   width: 150px;
 }
+
 h3 {
   position: absolute;
   bottom: 100px;
@@ -9,11 +10,13 @@ h3 {
   padding: 20px 40px;
   font-family: "Prompt", sans-serif;
   font-weight: 600;
+  font-size: 20px;
 }
 
 img {
-  width: 65%;
+  width: 60%;
 }
+
 .my-photo {
   object-fit: cover;
   width: 100%;
@@ -25,5 +28,9 @@ img {
 
 p {
   font-family: "Prompt", sans-serif;
-  padding: 50px;
+  padding: 10px;
+}
+
+.container {
+  height: 100vh;
 }
