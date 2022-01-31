@@ -11,8 +11,13 @@ function imageLoad(duomenys) {
   console.log(data);
 }
 
+function getRandom(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 button.addEventListener("click", function () {
-  let random = Math.floor(Math.random() * 10);
+  let random = getRandom(0, 9);
+  console.log(random);
   img.src = data[random].src;
   caption.textContent = data[random].title;
 
@@ -23,5 +28,3 @@ button.addEventListener("click", function () {
     colors: ["#000000", "#000001", "#CCB5B1", "#B02B18", "#3C5032"],
   });
 });
-
-
